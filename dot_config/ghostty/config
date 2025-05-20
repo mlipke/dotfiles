@@ -1,0 +1,3 @@
+command = "fish"
+scrollback-limit = "65535"
+keybind = ctrl+tab=unbind
