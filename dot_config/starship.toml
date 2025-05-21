@@ -1,0 +1,13 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """$hostname$directory$git_branch$status$time
+➜ 
+"""
+
+add_newline = false
+
+[directory]
+truncation_length = 4
+truncation_symbol = '.../'
+truncate_to_repo = false
+
